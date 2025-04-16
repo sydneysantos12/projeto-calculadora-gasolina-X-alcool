@@ -1,0 +1,22 @@
+body{
+  background: linear-gradient(to right, #79A4FB, #306546);
+}
+
+main {
+    
+  margin-top: 23em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 23em;
+  display: flex;
+  
+}
+
+#caixa1{
+  background-color: blanchedalmond;
+  text-align: center;
+}
+
+.tank{
+  width: 2em;
+}
