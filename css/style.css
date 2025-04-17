@@ -39,7 +39,7 @@ h1{
 }
 
 .caixa{
-  background-color: #85231f;
+  /* background-color: #85231f; */
   height: 200px;
   width: auto;
   margin-left: 3em;
@@ -64,8 +64,26 @@ h1{
   border: 4px solid black;
 }
 
+#resultado{
+  margin-top: 100px;
+  font-weight: bold;
+  font-size: 3.5em;
 
+  
+}
 
-.tank{
+/* .tank{
   width: 2em;
+} */
+
+footer{
+  background-color:  #333;
+  color: white;
+  padding: 15px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+
+
 }

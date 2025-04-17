@@ -12,27 +12,31 @@
 <body>
     <main>
         <div class="titulo">
-            <img src="https://static.vecteezy.com/system/resources/previews/058/217/235/non_2x/green-gasoline-fuel-nozzle-close-up-on-transparent-background-png.png"
-                class="tank">
+            <!-- <img src="https://static.vecteezy.com/system/resources/previews/058/217/235/non_2x/green-gasoline-fuel-nozzle-close-up-on-transparent-background-png.png"
+                class="tank"> -->
             <h1>o que compensa mais?</h1>
         </div>
         
         <div class="container">
             <div class="caixa">
-                <h4>Caixa 1</h4>
+                <label>Gasolina</label><br>
                 <input type="number"  id="valorGasolina" placeholder="Valor da Gasolina"> <br>
+                <label>Alcool</label><br>
                 <input type="number"  id="valorAlcool" placeholder="Valor do Alcool">
             </div>
             <div class="caixa">
-                <button onclick="calcular()" id="botaoCalculo">Calcular</button>
+                <button type="button" onclick="calcular()" id="botaoCalculo">Calcular</button>
             </div>
             <div class="caixa">
-                <p id="resultado">resultado</p>
+                <marquee>
+                    <p id="resultado"></p>
+                </marquee>
             </div>
         </div>
 
 
     </main>
+    <footer>&copy; todos os direitos reservados a Samuel - 2025</footer>
 </body>
-
+<script src="js/script.js"></script>
 </html>
