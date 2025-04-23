@@ -45,9 +45,9 @@ h1{
 }
 
 .caixa{
-  background-color: #85231f;
+  /* background-color: #85231f; */
   height: auto;
-  width: auto;
+  width: 20em;
 
   margin-left: 2em;
   margin-right: 2em;
