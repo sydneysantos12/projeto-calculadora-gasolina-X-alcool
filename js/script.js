@@ -5,7 +5,7 @@ function calcular(){
     let resultado = ((valorAlcool * 70)/100)
 
         if (resultado < valorGasolina){
-            document.getElementById("resultado").innerHTML = "compensa usar alcool"            
+            document.getElementById("resultado").innerHTML = "compensa usar alcoollllllllllll"            
         }
         else if (resultado > valorGasolina){
             document.getElementById("resultado").innerHTML = "compensa usar Gasolina"                                 
